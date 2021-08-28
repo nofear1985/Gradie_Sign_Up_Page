@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    transition: all .2s linear;
+    font-family: 'DM Sans', sans-serif;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Roboto', sans-serif;
+}
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(../images/Background.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+@media (min-width: 48em) {
+    main {
+        padding: 8.125rem 0;
+    }
+}
+@media (min-width: 62em) {
+    main {
+        padding: 0;
+    }
+}
+@media (min-width: 62em) {
+    .sign-up {
+        display: flex;
+    }
+}
+.sign-up .top-box {
+    height: 34.5rem;
+    width: 25.875rem;
+    background-color: #013243;
+    position: relative;
+}
+@media (min-width: 48em) {
+    .sign-up .top-box {
+        height: 34.5rem;
+        width: 27.6875rem;
+    }
+}
+.sign-up .top-box .text {
+    text-align: center;
+}
+.sign-up .top-box .text h1 {
+    font-size: 2.25rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    padding-top: 2.8125rem ;
+}
+.sign-up .top-box .text h2 {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: #86BFD3;
+    padding-top: 0.5rem;
+}
+.sign-up .top-box .mobile {
+    position: absolute;
+    background-image: url(../images/iPhone\ Mockup.png);
+    background-position: center;
+    height: 100%;
+    width: 100%;
+    left: 50%;
+    bottom: 0;
+    transform: translateX(-50%);
+    background-size: cover;
+}
+.sign-up .bottom-box {
+    height: 34.5rem;
+    width: 25.875rem;
+    background-color: #FFFFFF;
+    border: 0.0625rem solid #BCBCBC;
+    border-radius: 0 0 0.625rem 0.625rem;
+}
+@media (max-width: 35.9375em) {
+    .sign-up .bottom-box {
+        height: 35.5rem;
+        border: none;
+    }
+}
+@media (min-width: 48em) {
+    .sign-up .bottom-box {
+        height: 34.5rem;
+        width: 27.6875rem;
+    }
+}
+@media (min-width: 62em) {
+    .sign-up .bottom-box {
+        border-radius: 0 0.625rem 0.625rem 0;
+    }
+}
+.sign-up .bottom-box .login {
+    padding: 2.8125rem 3.2rem;
+}
+@media (min-width: 48em) {
+    .sign-up .bottom-box .login {
+        padding: 2.8125rem 4rem;
+    }
+}
+.sign-up .bottom-box .login .heading {
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.25rem;
+    font-weight: 700;
+}
+.sign-up .bottom-box .login p {
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    padding: 1.5rem 0 0.5rem;
+}
+.sign-up .bottom-box .login input[type="email"],
+.sign-up .bottom-box .login input[type="password"]{
+    width: 19rem;
+    height: 3.75rem;
+    padding-left: 1rem;
+    border: 0.0625rem solid #BCBCBC;
+    border-radius: 0.3125rem;
+    outline: none;
+}
+@media (min-width: 48em) {
+    .sign-up .bottom-box .login input[type="email"],
+    .sign-up .bottom-box .login input[type="password"] {
+        width: 19.5rem;
+        height: 3.75rem;
+    }
+}
+.sign-up .bottom-box .login input[type="email"]::placeholder,
+.sign-up .bottom-box .login input[type="password"]::placeholder {
+    font-size: 1.125rem;
+    font-weight: normal;
+    font-family: 'DM Sans', sans-serif;
+    color:#8D8D8D;
+}
+.sign-up .bottom-box .login .checkbox {
+    padding-top: 1.5rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.sign-up .bottom-box .login input[type="checkbox"] {
+    width: 1.321875rem;
+    height: 1.25rem;
+    border: 0.0625rem solid #DADADA;
+    border-radius: 0.3125rem;
+    outline: none;
+}
+.sign-up .bottom-box .login .chk {
+    padding: 0;
+    margin-left: -2rem;
+    font-family: 'Inter', sans-serif;
+    font-size: 1.125rem;
+    font-weight: normal;
+    line-height: 1.5;
+}
+.sign-up .bottom-box .login .chk span {
+    color: #013243;
+    text-decoration: underline;
+    font-weight: bold;
+}
+.sign-up .bottom-box .login input[type="submit"] {
+    background-color: #013243;
+    margin-top: 1.5rem;
+    width: 19.5rem;
+    height: 3.75rem;
+    outline: none;
+    border: none;
+    border-radius: 0.3125rem;
+    font-family: 'DM Sans', sans-serif;
+    font-size: 1.125rem;
+    font-weight: bold;
+    color: #FFFFFF;
+    text-align: center;
+}
